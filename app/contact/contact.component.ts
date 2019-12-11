@@ -13,8 +13,7 @@ export class ContactComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.cfmodel = {firstName:"Murali",lastName:"pagadala",email:"m@gmail.com",password:"12345678", confirmPassword:"12345678"}
-    
+    this.cfmodel = {firstName:"Murali",lastName:"pagadala",email:"m@gmail.com",password:"12345678", confirmPassword:"12345678"};
   }
 
   onSubmit() {

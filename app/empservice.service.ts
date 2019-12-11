@@ -9,6 +9,7 @@ export class EmpserviceService {
 
   constructor(private http: HttpClient) {
     
+    
   }
   getAllEmp():Observable<any>{
     return this.http.get(apiURL+'getAllEmployees');

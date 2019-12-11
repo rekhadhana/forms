@@ -16,6 +16,7 @@ export class ListallempComponent implements OnInit {
     this.eService.getAllEmp().subscribe(result=>{
       //console.log(result);
       this.empList = result.data;
+      
     });
   } 
   editEmployee(id){
